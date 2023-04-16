@@ -1,0 +1,10 @@
+name: dartsenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - pip:
+      # Package that is only on PyPI
+      - simpleaudio
